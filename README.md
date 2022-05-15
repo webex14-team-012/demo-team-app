@@ -1,5 +1,5 @@
 # demo-team-app
-テスト
+テストです
 ## Project setup
 ```
 npm install

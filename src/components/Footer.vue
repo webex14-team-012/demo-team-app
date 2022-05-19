@@ -2,7 +2,9 @@
   <footer class="footer">
     <div>
       This Application is made by
-      <span class="names">○○○, ○○○ and ○○○</span>.
+      <span class="names"
+        >Hanashiro Ichiyo, Nazuna Kubota , Yuki Nakamura and Honoka Sato.</span
+      >
     </div>
     <small
       >The Application is created as a part of the GeekSalon WebExpert

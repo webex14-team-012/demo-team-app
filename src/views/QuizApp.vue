@@ -1,7 +1,7 @@
 <template>
   <h1>Vue クイズ</h1>
   <div class="app">
-    <h2>Q. {{ "クイズタイトル" }}</h2>
+    <h2>Q. {{ "私たちのグループ名は？" }}</h2>
     <img
       class="quiz-image"
       src="https://via.placeholder.com/300x300"
@@ -9,21 +9,27 @@
     />
     <div class="container">
       <button>
-        {{ "選択肢1" }}
+        {{ choice1 }}
       </button>
       <button>
-        {{ "選択肢2" }}
+        {{ "愉快な腹減り" }}
       </button>
       <button>
-        {{ "選択肢3" }}
+        {{ "ばりばりきゃりーん" }}
       </button>
     </div>
-    <div>{{ "答え" }}</div>
+    <div>{{ "ばりばりきゃりーん" }}</div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      choice1: "きゃいーん",
+    }
+  },
+}
 </script>
 
 <style>
